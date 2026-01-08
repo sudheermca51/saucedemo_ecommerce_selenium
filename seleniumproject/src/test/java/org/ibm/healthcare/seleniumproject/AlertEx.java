@@ -20,7 +20,7 @@ public class AlertEx {
 	
 		driver.findElement(By.xpath("//button[text()='Click for JS Confirm']")).click();
 		String alertText = driver.switchTo().alert().getText();
-		System.out.println("Alert Text: "+alertText);
+		System.out.println("Alert Text messages: "+alertText);
 		alert.dismiss(); // to click on Cancel button
 		
 		driver.findElement(By.xpath("//button[text()='Click for JS Prompt']")).click();
