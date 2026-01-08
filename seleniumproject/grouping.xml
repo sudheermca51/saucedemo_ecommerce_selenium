@@ -1,0 +1,14 @@
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.ibm.healthcare.seleniumproject.GroupingEx">
+      	<groups>
+      		<run>
+      			<include name="ui"/>
+      			<include name="api"/>
+      		</run>
+      	</groups>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

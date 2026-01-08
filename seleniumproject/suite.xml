@@ -1,0 +1,14 @@
+<suite name="Suite">
+  <test thread-count="5" name="SanityTest+Chrome+Env">
+    <classes>
+     <class name="org.ibm.healthcare.seleniumproject.TestMethodsEx"/>
+      <class name="org.ibm.healthcare.seleniumproject.TestNGPreConditions"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="RegressionTest+Chrome">
+    <classes>
+     <class name="org.ibm.healthcare.seleniumproject.TestMethodsEx"/>
+      <class name="org.ibm.healthcare.seleniumproject.TestNGPreConditions"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

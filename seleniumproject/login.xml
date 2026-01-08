@@ -1,0 +1,13 @@
+<suite name="Suite">
+ <listeners>
+    <listener class-name="org.ibm.healthcare.seleniumproject.SauceLabsListener" />
+  </listeners>
+  <test thread-count="5" name="Test">
+  <parameter name="user" value="admin"/>
+  <parameter name="pass" value="Admin"/>
+  <parameter name="url" value="https://o2.openmrs.org/openmrs/login.htm"/>
+    <classes>
+      <class name="org.ibm.healthcare.seleniumproject.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
